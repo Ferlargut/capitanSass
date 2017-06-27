@@ -2,17 +2,10 @@ body {
   margin: 0;
   padding: 0; }
 
-.header {
-  width: 100%;
-  background: #ebb85d; }
-  .header h1 {
-    margin: 1px;
-    height: 50px; }
-
 .container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: nowrap; }
   .container .nav {
     width: 25%;
     color: white; }
@@ -25,15 +18,10 @@ body {
         margin: 2px; }
   .container .exercise {
     width: 66.66667%; }
-
-.last-section, .footer {
-  text-align: center;
-  background: #3e3f40;
-  color: white;
-  width: 100%; }
-
-.footer {
-  margin: 3px;
-  height: 50px; }
+  .container .last-section {
+    text-align: center;
+    background: #3e3f40;
+    color: white;
+    width: 16.66667%; }
 
 /*# sourceMappingURL=style.css.map */
