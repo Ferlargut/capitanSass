@@ -1,0 +1,51 @@
+@import 'variables';
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{     
+    width: column-th(1);  
+    background: $background_lab;
+    h1{
+        margin: 1px;
+        height: 50px;
+    }
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+    
+    .nav{
+        width: column-th(4);         
+        color:$text_dark;
+        ul{
+            list-style: none; 
+            padding: 0;  
+            li{
+                background: $background_dark;
+                padding: 5px;
+                margin:2px;
+            }                         
+        }        
+    }
+    .exercise{
+        width: (column-th(3))*2;
+    }
+}
+
+.last-section{
+    text-align: center;
+    background: $background_dark;
+    color:$text_dark;
+    width: column-th(1);
+}
+.footer{
+    margin: 3px;
+    height: 50px;
+    @extend .last-section;    
+}
+
+

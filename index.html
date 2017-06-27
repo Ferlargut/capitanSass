@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ejercicio</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div>
+    <div class="header">
         <h1>Capitan</h1>
     </div>
-
-    <div>
-        <div>
+    <div class="container">
+        <div class="nav">
             <ul>
                 <li>Prework</li>
                 <li>Quiz</li>
@@ -20,20 +20,19 @@
                 <li>Ejercicio</li>
             </ul>
         </div>
-        <div>
+        <div class="exercise">
             <h1>Ejercicio</h1>
             <p>Este es el contenedor principal, el objetivo es que todo se vea bien aun cambiando las resoluciones, deberas cambiar los colores y tamaños explotando las variables y funciones de SASS</p>
             <p>Deberas obtener la lista de asistencia usando la API ubicada en <a href="http://laboratoria.cuadra.co:9339/api/v1/students/">http://laboratoria.cuadra.co:9339/api/v1/students/</a> y agregarle estilos con SASS</p>
 
             <h4>Asistencia: </h4>
-            <ol>
+            <ul>
                 <li> Andrea   <input type="checkbox"> </li>
                 <li> Maria    <input type="checkbox"> </li>
                 <li> Fernanda <input type="checkbox"> </li>
-            </ol>          
+            </ul>          
         </div>
-
-        <div>
+        <div class="last-section">
             <div class="aside">
                 <h2>Deberas</h2>
                 <p>Crear una funcion para calcular el width % con base en que col es, ej col-1 = 8.33% , </p>
@@ -47,7 +46,7 @@
         </div>
     </div>
 
-    <div>
+    <div class="footer">
         <p>Cambiar el tamano de la ventana y cambiar tamaño de esto.</p>
     </div>    
 </body>

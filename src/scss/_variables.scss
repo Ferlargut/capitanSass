@@ -1,0 +1,8 @@
+$background_lab:#ebb85d;
+$background_dark:#3e3f40;
+$text_dark:white;
+$font:helvetica,arial;
+
+@function column-th($n){
+    @return 100% /$n
+}
